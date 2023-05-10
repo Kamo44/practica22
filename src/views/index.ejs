@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MANGLAR - First Node Project</title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <%- include("partials/navigation") %>
+
+    <!-- MAIN CONTENT -->
+
+    <header
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="d-flex flex-column justify-content-center align-items-center">
+        <img
+          src="/img/imagen1.jpg"
+          class="w- 30 m-auto animated bounceIn"
+          alt="Website Logo"
+        />
+        <h1 class="display-0.5 my-1 text-uppercase fw-bold">Necesito un nuevo PC, el anterior se daño</h1>
+        <a href="/about" class="btn btn-primary w-25">SE DAÑO LA GRAFICA</a>
+      </div>
+    </header>
+
+    <!-- section one -->
+    <div class="container-fluid" id="about">
+      <div class="row bg-dark text-white p-5 text-center">
+        <div class="col-md-4 offset-md-4">
+          <h3>Corte de fibra durante la realizacion de este trabajo.</h3>
+          <p>
+            ESin conexión a Internet
+            Sin conexión a Internet
+            
+            Prueba a:
+            Ejecutar Diagnósticos de red de Windows
+            Changing DNS over HTTPS settings
+            DNS_PROBE_FINISHED_NO_INTERNET
+            Check your DNS over HTTPS settings
+            Go to Opera > Preferences… > System > Use DNS-over-HTTPS instead of the system’s DNS settings and check your DNS-over-HTTPS provider.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <%- include("partials/footer") %>
+
+    <!-- JAVASCRIPT CDNS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
